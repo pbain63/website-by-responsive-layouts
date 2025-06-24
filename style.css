@@ -1,0 +1,35 @@
+/* 
+font-family: "Oswald", sans-serif;
+font-weight: 700;
+
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+
+#2E323F   1 | Oswald Bold - font-size: 18px;  1.125rem
+#3B40502  2 | Oswald Bold - font-size: 90px;  5.625rem
+#6F737F   3 | Montserrat Regular - font-size: 24px; 1.5rem
+#FFFFFF   4 | Oswald Bold - font-size: 24px; 1.5rem
+#A59678   5 | Oswald Bold - font-size: 30px; 1.875rem
+              Monserrat Regular - font-size: 18px  1.125rem
+          6 | Oswald Bold - font-size: 36px;  2.25 rem
+              Monserrat Regular - font-size: 21px 1.3125rem
+          7 | Oswald Bold - font-size: 30px; 1.875rem
+              Monserrat Regular - font-size: 18px 1.125rem
+          8 | Oswald Bold - font-size: 24px; 1.5rem
+          9 | Oswald Bold - font-size: 21px;  1.3125rem
+              Monserrat Regular - font-size: 16px 1rem
+
+
+*/
+/* Mobile First approach */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* margin: 0; */
+ 
+}
