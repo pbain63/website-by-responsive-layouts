@@ -91,7 +91,9 @@ header {
 /* Font: Oswald Bold */
 .nav,
 .hero__title,
-.btn, .col h3  {
+.btn,
+.col h3,
+.image-section h2 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
@@ -150,7 +152,9 @@ header {
   color: #a59678;
 }
 /* Font: Montserrat Regular  */
-.hero__text P, .col p {
+.hero__text P,
+.col p,
+.image-section p {
   font-family: "Montserrat", sans-serif;
 }
 .hero__text P {
@@ -167,26 +171,68 @@ header {
   padding: 0.5em 2em;
   border-radius: 100px;
 }
-.whitesmoke-row{
+.whitesmoke-row {
   background: #f5f5f5;
   text-align: center;
   padding: 3em 0;
   line-height: 1.5;
 }
-.col  + .col {
-  margin-top: 3em ;
+.col + .col {
+  margin-top: 3em;
   /* color: red; */
 }
 .col h3 {
   color: #a59678;
   font-size: 1.875rem;
-
 }
 .col p {
-  margin-top: 1em ;
+  margin-top: 1em;
   font-size: 1.125rem;
   /* color: red; */
 }
+/*  */
+.image-section,
+.sidebar {
+  width: 57%;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding-bottom: 2em;
+  border: 2px solid yellowgreen;
+}
+.image-section h2 {
+  font-size: 2.25 rem;
+  color: #a59678;
+}
+img {
+}
+.image-section p {
+  font-size: 1.3125rem;
+}
+.image-section h2 {
+  margin-bottom: 1.5em;
+}
+.sketches-image {
+  margin-bottom: 2em;
+}
+.sidebar {
+  text-align: center;
+}
+.right-column {
+  background: #3b4050;
+  padding: 2em 3em;
+  /*  */
+}
+.right-column + .right-column {
+  margin-top: 1.5em;
+}
+.right-column h3 {
+  color: white;
+  margin-bottom: 1em;
+}
+.right-column p {
+  color: #ffffff;
+}
+
 @media (min-width: 700px) {
   .nav-toggle {
     display: none;
