@@ -194,6 +194,19 @@ header {
   .nav__item {
     margin: 0 0 0 2em;
   }
-
-  
+  .hero__title h1 {
+    font-size: 5.625rem;
+    line-height: 1.1;
+    margin: 0;
+    /* padding: 0; */
+    /* word-spacing: 10; */
+    width: 75%;
+    border: 2px solid yellow;
+  }
+  .hero__text {
+    align-self: flex-end;
+    line-height: 1.7;
+    /* width: 100%; */
+    border: 2px solid yellow;
+  }
 }
