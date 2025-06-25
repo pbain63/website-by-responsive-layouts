@@ -35,6 +35,13 @@ body {
 img {
   max-width: 100%;
 }
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  border: 2px solid green;
+}
 header {
   background: #2e323f;
   text-align: center;
@@ -123,4 +130,32 @@ header {
 }
 .logo {
   height: 30px;
+}
+@media (min-width: 700px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav {
+    visibility: visible;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .nav__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+
+    border: 2px solid red;
+  }
+  .nav__item {
+    margin: 0 0 0 2em;
+  }
 }
