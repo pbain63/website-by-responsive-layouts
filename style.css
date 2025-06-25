@@ -6,7 +6,7 @@ font-family: "Montserrat", sans-serif;
 font-weight: 400;
 
 #2E323F   1 | Oswald Bold - font-size: 18px;  1.125rem
-#3B40502  2 | Oswald Bold - font-size: 90px;  5.625rem
+#3B4050  2 | Oswald Bold - font-size: 90px;  5.625rem
 #6F737F   3 | Montserrat Regular - font-size: 24px; 1.5rem
 #FFFFFF   4 | Oswald Bold - font-size: 24px; 1.5rem
 #A59678   5 | Oswald Bold - font-size: 30px; 1.875rem
@@ -91,7 +91,7 @@ header {
 /* Font: Oswald Bold */
 .nav,
 .hero__title,
-.btn {
+.btn, .col h3  {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
@@ -150,7 +150,7 @@ header {
   color: #a59678;
 }
 /* Font: Montserrat Regular  */
-.hero__text P {
+.hero__text P, .col p {
   font-family: "Montserrat", sans-serif;
 }
 .hero__text P {
@@ -166,6 +166,26 @@ header {
   text-decoration: none;
   padding: 0.5em 2em;
   border-radius: 100px;
+}
+.whitesmoke-row{
+  background: #f5f5f5;
+  text-align: center;
+  padding: 3em 0;
+  line-height: 1.5;
+}
+.col  + .col {
+  margin-top: 3em ;
+  /* color: red; */
+}
+.col h3 {
+  color: #a59678;
+  font-size: 1.875rem;
+
+}
+.col p {
+  margin-top: 1em ;
+  font-size: 1.125rem;
+  /* color: red; */
 }
 @media (min-width: 700px) {
   .nav-toggle {
