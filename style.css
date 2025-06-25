@@ -93,7 +93,7 @@ header {
 .hero__title,
 .btn,
 .col h3,
-.image-section h2 {
+.image-section h2, .right-column h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
@@ -154,7 +154,7 @@ header {
 /* Font: Montserrat Regular  */
 .hero__text P,
 .col p,
-.image-section p {
+.image-section p, .right-column p {
   font-family: "Montserrat", sans-serif;
 }
 .hero__text P {
@@ -219,7 +219,7 @@ img {
 }
 .right-column {
   background: #3b4050;
-  padding: 2em 3em;
+  padding: 2em 1.5em;
   /*  */
 }
 .right-column + .right-column {
@@ -259,7 +259,7 @@ img {
   }
   .right-column {
     /* margin: 0; */
-    padding: 1.7em;
+    padding: 2em 2.5em;
   }
   .right-column + .right-column {
     margin-top: 0;
