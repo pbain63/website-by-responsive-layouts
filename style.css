@@ -21,7 +21,7 @@ font-weight: 400;
 
 
 */
-/* Mobile First approach */
+/* Mobile First (Default styles) */
 *,
 *::before,
 *::after {
@@ -93,7 +93,7 @@ header {
 .hero__title,
 .btn,
 .col h3,
-.image-section h2, .right-column h3 {
+.image-section h2, .right-column h3, .footer__first-title, .footer__second-title  {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
@@ -154,7 +154,7 @@ header {
 /* Font: Montserrat Regular  */
 .hero__text P,
 .col p,
-.image-section p, .right-column p {
+.image-section p, .right-column p, .page__item, .company-info p {
   font-family: "Montserrat", sans-serif;
 }
 .hero__text P {
@@ -231,6 +231,20 @@ img {
 }
 .right-column p {
   color: #ffffff;
+}
+.footer {
+  background: #3b4050;
+}
+.footer__first-title {
+  color: white;
+  font-size: 1.5rem;
+}
+.footer__second-title {
+  font-size: 1.3125rem;
+  color: #a59678;
+}
+.page__item {
+  /* color: #ffffff; */
 }
 /* Only main section */
 @media (min-width: 700px) and (max-width: 1000px) {
