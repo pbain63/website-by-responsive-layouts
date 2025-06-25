@@ -116,7 +116,7 @@ header {
   list-style: none;
 }
 .nav__item {
-  margin-top: 0.75em;
+  margin-top: 0.75rem;
 }
 .nav__item:hover,
 .nav__item:focus {
@@ -128,7 +128,7 @@ header {
   text-transform: uppercase;
 }
 .nav__list--primary {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 .nav__link--button {
   background: #a59678;
@@ -146,7 +146,7 @@ header {
   color: white;
   font-size: 3.5rem;
   line-height: 1.2;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 .hero__title--color {
   color: #a59678;
@@ -160,7 +160,7 @@ header {
 .hero__text P {
   color: #ffffff;
   font-size: 1.5rem;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 .btn {
   display: inline-block;
@@ -178,7 +178,7 @@ header {
   line-height: 1.5;
 }
 .col + .col {
-  margin-top: 3em;
+  margin-top: 3rem;
   /* color: red; */
 }
 .col h3 {
@@ -186,7 +186,7 @@ header {
   font-size: 1.875rem;
 }
 .col p {
-  margin-top: 1em;
+  margin-top: 1rem;
   font-size: 1.125rem;
   /* color: red; */
 }
@@ -195,7 +195,7 @@ header {
 .sidebar {
   width: 57%;
   margin: 0 auto;
-  margin-top: 2em;
+  margin-top: 2rem;
   padding-bottom: 2em;
   border: 2px solid yellowgreen;
 }
@@ -209,10 +209,10 @@ img {
   font-size: 1.3125rem;
 }
 .image-section h2 {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
 }
 .sketches-image {
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
 }
 .sidebar {
   text-align: center;
@@ -223,16 +223,53 @@ img {
   /*  */
 }
 .right-column + .right-column {
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
 }
 .right-column h3 {
   color: white;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 .right-column p {
   color: #ffffff;
 }
-
+/* Only main section */
+@media (min-width: 700px) and (max-width: 1000px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-section,
+  .sidebar {
+    width: 100%;
+  }
+  .image-section {
+    /* display: block; */
+    /* width: 100%; */
+  }
+  .sketches-image {
+    margin-top: 2rem;
+  }
+  .sidebar {
+    /* margin: 0; */
+    /* padding: 0; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right-column {
+    /* margin: 0; */
+    padding: 1.7em;
+  }
+  .right-column + .right-column {
+    margin-top: 0;
+    margin-left: 2rem;
+  }
+  .right-column .middle-row-title {
+    /* color: red; */
+    /* word-spacing: -4px; */
+  }
+}
 @media (min-width: 700px) {
   .nav-toggle {
     display: none;
@@ -258,7 +295,7 @@ img {
     border: 2px solid red;
   }
   .nav__item {
-    margin: 0 0 0 2em;
+    margin: 0 0 0 2rem;
   }
   .hero__title h1 {
     font-size: 5.625rem;
