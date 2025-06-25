@@ -88,14 +88,19 @@ header {
 .hamburger::after {
   transform: translateY(3px);
 }
-
+/* Font: Oswald Bold */
+.nav,
+.hero__title,
+.btn {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
 .nav {
   width: 100%;
   visibility: hidden;
   height: 0;
   position: absolute;
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
+
   font-size: 1.125rem;
 }
 .nav--visible {
@@ -131,6 +136,37 @@ header {
 .logo {
   height: 30px;
 }
+.hero {
+  background: #3b4050;
+  padding: 4em 0;
+}
+.hero__title h1 {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1em;
+}
+.hero__title--color {
+  color: #a59678;
+}
+/* Font: Montserrat Regular  */
+.hero__text P {
+  font-family: "Montserrat", sans-serif;
+}
+.hero__text P {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 1.5em;
+}
+.btn {
+  display: inline-block;
+  background: #a59678;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5em 2em;
+  border-radius: 100px;
+}
 @media (min-width: 700px) {
   .nav-toggle {
     display: none;
@@ -158,4 +194,6 @@ header {
   .nav__item {
     margin: 0 0 0 2em;
   }
+
+  
 }
