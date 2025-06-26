@@ -93,7 +93,10 @@ header {
 .hero__title,
 .btn,
 .col h3,
-.image-section h2, .right-column h3, .footer__first-title, .footer__second-title  {
+.image-section h2,
+.right-column h3,
+.footer__first-title,
+.footer__second-title {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
 }
@@ -154,7 +157,11 @@ header {
 /* Font: Montserrat Regular  */
 .hero__text P,
 .col p,
-.image-section p, .right-column p, .page__item, .company-info p {
+.image-section p,
+.right-column p,
+.page__item,
+.company-info p,
+.page__item {
   font-family: "Montserrat", sans-serif;
 }
 .hero__text P {
@@ -241,8 +248,10 @@ img {
   font-size: 1.5rem;
   text-align: center;
 }
-.company-info p {
+.company-info p,
+.page__item {
   color: #ffffff;
+  font-size: 1rem;
 }
 .footer__second-title {
   font-size: 1.3125rem;
@@ -254,32 +263,33 @@ img {
   list-style: none;
 }
 .page__link {
-  
 }
 .page__item {
   margin: 0;
-  color: #ffffff;
+  /* color: #ffffff; */
   text-decoration: none;
 }
-.page__item:hover, .page__item:focus {
+.page__item:hover,
+.page__item:focus {
   opacity: 0.75;
 }
 .page-link-container {
   display: flex;
   justify-content: space-between;
 }
-.footer-link-column, .company-info {
+.page-link-column,
+.company-info {
   /* border: 2px solid yellow; */
 }
-.footer__second-title, .page__link {
-  
+.footer__second-title,
+.page__link {
   margin-bottom: 1rem;
 }
 .footer__second-title {
   /*  */
-  margin-top: 2.5rem; 
+  margin-top: 2.5rem;
 }
-/* Only main section */
+/* Only main section, footer */
 @media (min-width: 700px) and (max-width: 1000px) {
   main {
     display: flex;
@@ -297,9 +307,7 @@ img {
     margin-top: 2rem;
   }
   .sidebar {
-    /* margin: 0; */
-    /* padding: 0; */
-    /* width: 100%; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -312,20 +320,18 @@ img {
     margin-top: 0;
     margin-left: 2rem;
   }
-  .right-column .middle-row-title {
-    /* color: red; */
-    /* word-spacing: -4px; */
+  .right-column {
+    
   }
+
   .footer-wrapper {
     flex-direction: column;
   }
-  .footer__first-title, .footer__text {
-    /* display: block; */
-    
-    /* width: 100%; */
+  .footer__first-title,
+  .footer__text {
   }
 }
-@media (min-width: 700px) {
+@media (min-width: 1000px) {
   .nav-toggle {
     display: none;
   }
@@ -364,7 +370,38 @@ img {
   .hero__text {
     align-self: flex-end;
     line-height: 1.7;
-    /* width: 100%; */
+
     border: 2px solid yellow;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .footer__text {
+    display: flex;
+
+    /*  */
+    /* gap: 10rem; */
+  }
+  .company-info {
+    width: 35%;
+    /* max-width: 600px; */
+  }
+
+  .footer__text {
+    border: 2px solid green;
+  }
+  .company-info,
+  .page-link-container {
+    border: 2px solid yellow;
+  }
+  .page-link-container {
+    margin-left: auto;
+  }
+  .page-link-column {
+    border: 2px solid blue;
+  }
+  .first-two-link {
+    margin-right: 8rem;
+    /* padding-right: 8rem; */
   }
 }
