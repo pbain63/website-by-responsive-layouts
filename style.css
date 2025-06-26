@@ -238,13 +238,45 @@ img {
 .footer__first-title {
   color: white;
   font-size: 1.5rem;
+  text-align: center;
+}
+.company-info p {
+  color: #ffffff;
 }
 .footer__second-title {
   font-size: 1.3125rem;
   color: #a59678;
 }
+.page__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page__link {
+  
+}
 .page__item {
-  /* color: #ffffff; */
+  margin: 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+.page__item:hover, .page__item:focus {
+  opacity: 0.75;
+}
+.page-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-link-column, .company-info {
+  /* border: 2px solid yellow; */
+}
+.footer__second-title, .page__link {
+  
+  margin-bottom: 1rem;
+}
+.footer__second-title, .footer__first-title {
+  /*  */
+  margin-top: 2.5rem; 
 }
 /* Only main section */
 @media (min-width: 700px) and (max-width: 1000px) {
