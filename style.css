@@ -204,8 +204,8 @@ header {
 /*  */
 .image-section,
 .sidebar {
-  width: 57%;
-  margin: 0 auto;
+  /* width: 57%; */
+  /* margin: 0 auto; */
   margin-top: 2rem;
   padding-bottom: 2em;
   border: 2px solid yellowgreen;
