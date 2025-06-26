@@ -43,7 +43,7 @@ img {
   margin: 0 auto;
   max-width: 1200px;
   position: relative;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 header {
   background: #2e323f;
