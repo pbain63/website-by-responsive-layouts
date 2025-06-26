@@ -313,7 +313,6 @@ img {
   .sidebar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
   .right-column {
     /* margin: 0; */
