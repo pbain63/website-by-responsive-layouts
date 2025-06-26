@@ -234,6 +234,7 @@ img {
 }
 .footer {
   background: #3b4050;
+  padding: 2.5em 0;
 }
 .footer__first-title {
   color: white;
@@ -274,7 +275,7 @@ img {
   
   margin-bottom: 1rem;
 }
-.footer__second-title, .footer__first-title {
+.footer__second-title {
   /*  */
   margin-top: 2.5rem; 
 }
@@ -314,6 +315,14 @@ img {
   .right-column .middle-row-title {
     /* color: red; */
     /* word-spacing: -4px; */
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .footer__first-title, .footer__text {
+    /* display: block; */
+    
+    /* width: 100%; */
   }
 }
 @media (min-width: 700px) {
