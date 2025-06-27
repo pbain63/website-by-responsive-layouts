@@ -1,6 +1,6 @@
 # Responsive Website Layouts
 
-[Live Demo](https://pbain63.github.io/website-by-responsive-layouts)
+### [Live Demo](https://pbain63.github.io/website-by-responsive-layouts)
 
 ## Overview
 
@@ -19,15 +19,21 @@ Here are a few screenshots demonstrating the responsive design:
 
 ### Mobile View (max-width: 700px)
 
-![alt text](assets/screenshots/mobile-view.png)
+<div align="center">
+  <img src="assets/screenshots/mobile-view.png" alt="Mobile View" height="400px" />
+</div>
 
 ### Tablet View ((min-width: 700px) and (max-width: 1000px))
 
-![alt text](assets/screenshots/tablet-view.png)
+<div align="center">
+  <img src="assets/screenshots/tablet-view.png" alt="Tablet View" height="400px" />
+</div>
 
 ### Desktop View (min-width: 1000px)
 
-![alt text](assets/screenshots/desktop-view.png)
+<div align="center">
+  <img src="assets/screenshots/desktop-view.png" alt="Desktop View" height="400px" />
+</div>
 
 ## Technologies Used
 
@@ -66,4 +72,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with by [Prodip Bain](https://github.com/pbain63)
+Made with <span style="color:red;">❤</span> by [Prodip Bain](https://github.com/pbain63)
