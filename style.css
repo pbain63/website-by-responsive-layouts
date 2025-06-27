@@ -330,6 +330,9 @@ header {
     padding: 0;
     display: flex;
   }
+  .container {
+    width: 80%;
+  }
   .row {
     display: flex;
     justify-content: space-between;
