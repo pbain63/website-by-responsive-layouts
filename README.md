@@ -15,6 +15,12 @@ The project is ideal for those learning how to:
 
 ## Screenshots
 
+### Design specs
+
+<div align="center">
+  <img src="assets/screenshots/Design-specs.png" alt="Mobile View" height="300px" />
+</div>
+
 Here are a few screenshots demonstrating the responsive design:
 
 ### Mobile View (max-width: 700px)
@@ -26,7 +32,7 @@ Here are a few screenshots demonstrating the responsive design:
 ### Tablet View ((min-width: 700px) and (max-width: 1000px))
 
 <div align="center">
-  <img src="assets/screenshots/tablet-view.png" alt="Tablet View" height="400px" />
+  <img src="assets/screenshots/tablet-view.png" alt="Tablet View" height="300px" />
 </div>
 
 ### Desktop View (min-width: 1000px)
