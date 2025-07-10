@@ -376,6 +376,7 @@ header {
   }
   .footer__text {
     display: flex;
+    gap: 2rem;
   }
   .company-info {
     width: 35%;
