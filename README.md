@@ -23,32 +23,6 @@ The project is ideal for those learning how to:
 | ---------------------------------------------------- | ----------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
 | ![Design specs](assets/screenshots/Design-specs.png) | ![Desktop](assets/screenshots/desktop-view.png) | ![Tablet](assets/screenshots/tablet-view.png) | ![Mobile](assets/screenshots/mobile-view.png) |
 
-### Design specs
-
-<div align="center">
-  <img src="assets/screenshots/Design-specs.png" alt="Mobile View" height="300px" />
-</div>
-
-Here are a few screenshots demonstrating the responsive design:
-
-### Mobile View (max-width: 700px)
-
-<div align="center">
-  <img src="assets/screenshots/mobile-view.png" alt="Mobile View" height="400px" />
-</div>
-
-### Tablet View ((min-width: 700px) and (max-width: 1000px))
-
-<div align="center">
-  <img src="assets/screenshots/tablet-view.png" alt="Tablet View" height="300px" />
-</div>
-
-### Desktop View (min-width: 1000px)
-
-<div align="center">
-  <img src="assets/screenshots/desktop-view.png" alt="Desktop View" height="400px" />
-</div>
-
 ---
 
 ## Technologies Used
