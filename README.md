@@ -1,6 +1,8 @@
 # Responsive Website Layouts
 
-### [Live Demo](https://pbain63.github.io/website-by-responsive-layouts)
+## [Live Demo](https://pbain63.github.io/website-by-responsive-layouts)
+
+---
 
 ## Overview
 
@@ -12,6 +14,8 @@ The project is ideal for those learning how to:
 - Use semantic HTML5 tags
 - Apply modern CSS (e.g., Flexbox, media queries)
 - Follow accessibility and performance-friendly practices
+
+---
 
 ## Screenshots
 
@@ -41,12 +45,16 @@ Here are a few screenshots demonstrating the responsive design:
   <img src="assets/screenshots/desktop-view.png" alt="Desktop View" height="400px" />
 </div>
 
+---
+
 ## Technologies Used
 
 - **HTML5** — semantic, accessible markup
 - **CSS3** — Flexbox, media queries
 - **Responsive Design Principles** — mobile-first, fluid layout
 - **Git & GitHub** — version control and hosting via GitHub Pages
+
+---
 
 ## Responsive Design Features
 
@@ -55,12 +63,16 @@ Here are a few screenshots demonstrating the responsive design:
 - **Section-based layout** with consistent spacing and hierarchy
 - **Scalable text and images** for various resolutions
 
+---
+
 ## Future Improvements
 
 - Add JavaScript for interactivity (e.g., mobile menu toggle)
 - Improve accessibility (ARIA roles, keyboard navigation)
 - Convert to component-based structure using a framework like React
 - Apply utility-first CSS approach (e.g., Tailwind CSS)
+
+---
 
 ## Contributing
 
@@ -72,6 +84,8 @@ Contributions are welcome! If you spot bugs or have suggestions:
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a pull request
 
+---
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -79,3 +93,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 Made with <span style="color:red;">❤</span> by [Prodip Bain](https://github.com/pbain63)
+
+---
