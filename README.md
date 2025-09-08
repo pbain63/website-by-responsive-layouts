@@ -19,6 +19,10 @@ The project is ideal for those learning how to:
 
 ## Screenshots
 
+| Design Specs                                         | Desktop View                                    | Tablet View                                   | Mobile View                                   |
+| ---------------------------------------------------- | ----------------------------------------------- | --------------------------------------------- | --------------------------------------------- |
+| ![Design specs](assets/screenshots/Design-specs.png) | ![Desktop](assets/screenshots/desktop-view.png) | ![Tablet](assets/screenshots/tablet-view.png) | ![Mobile](assets/screenshots/mobile-view.png) |
+
 ### Design specs
 
 <div align="center">
